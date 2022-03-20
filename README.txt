@@ -22,6 +22,8 @@ List of possible moves:
 3. VAR <varname> IS <x>, <y>.
 4. VALUE IN <x>, <y>.
 
+<Operation> can be ADD, SUBTRACT, MULTIPLY< DIVIDE.
+
 A little implementational detail:
 	In the SUBTRACT operation, there was a discussion on what the meaning of 'tile is obliterated' was. There were two common interpretations.
 
