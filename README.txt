@@ -31,11 +31,11 @@ A little implementational detail:
 2. 4 2 2 4  ->  4 4 0 0
 
 
-	The primary implementation in my code is the first one. However if one wants to use the second implementation, they can use the 'make game2' command in the terminal.
+The primary implementation in my code is the first one. However if one wants to use the second implementation, they can use the 'make game2' command in the terminal.
 
-	Running 'make' will by default run the first implementation which 'oliterates' the 0 tile obtained from subtraction in the next move and obtains 4 0 4 0 from 4 2 2 4 on running 'SUBTRACT LEFT.'
+Running 'make' will by default run the first implementation which 'oliterates' the 0 tile obtained from subtraction in the next move and obtains 4 0 4 0 from 4 2 2 4 on running 'SUBTRACT LEFT.'
 
-	Meanwhile, running 'make game2' will run the second implementation which 'obliterates' the 0 tile in the same move and obtains 4 4 0 0 from 4 2 2 4 on running 'SUBTRACT LEFT.'
+Meanwhile, running 'make game2' will run the second implementation which 'obliterates' the 0 tile in the same move and obtains 4 4 0 0 from 4 2 2 4 on running 'SUBTRACT LEFT.'
 
 Other details and conventions of the code are:
 1. The board is to be treated as a 2D array where index of top left corner is to be considered as (1,1) and bottom right corner is (4,4).
