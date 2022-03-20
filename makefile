@@ -1,8 +1,14 @@
 game: game.out
 	./game.out
+	
+game2: game2.out
+	./game2.out
 
 game.out: parser.tab.cc lex.yy.cc
 	g++ -o game.out -w -g parser.tab.cc lex.yy.cc helper_functions.cpp helper_functions.h
+	
+game2.out: parser.tab.cc lex.yy.cc
+	g++ -o game.out -w -g parser.tab.cc lex.yy.cc helper2.cpp helper_functions.h
 
 lex.yy.cc: lexer.l
 	flex -w -o lex.yy.cc lexer.l
